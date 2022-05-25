@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body { font-family: 'Fredoka';
+}
+
+h1 {
+    text-align: center;
+    color: #e53170;
+    padding: 40px;
+}
+
+/* layout */
+.container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .flex-container {
+    display: flex;
+    align-self: auto;
+  }
+  .item {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 10px 15px;
+    background-color: black;
+    color: white;
+    list-style: none;
+    justify-content: center;
+  }
+  
+.scritte {
+    display: flex;
+    flex-direction: column;
+}
+  
+  .item img { 
+      width: 30%;
+  }
